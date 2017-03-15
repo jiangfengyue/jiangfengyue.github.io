@@ -883,7 +883,11 @@ pre .javascript .function {
   .pagination .prev,
   .pagination .next,
   .pagination .page-number,
-  .pagination .space {
+  .pagination .space,
+.pagination .prev,
+.pagination .next,
+.pagination .page-number,
+.pagination .space {
     margin: 0 5px;
   }
 }
@@ -1681,7 +1685,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff62c9;
+  background: #ff8ed9;
 }
 .links-of-blogroll {
   font-size: 13px;
