@@ -189,7 +189,7 @@ body {
   font-size: 14px;
   line-height: 2;
   color: #555;
-  background: #fff0cc;
+  background: #fff4d6;
 }
 @media (max-width: 767px) {
   body {
@@ -979,7 +979,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: #5fd9cd;
+  background: #fff;
 }
 .header-inner {
   position: relative;
@@ -1681,7 +1681,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f9ffbe;
+  background: #beb6b6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2827,4 +2827,45 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.headband {
+  display: block;
+  background: #c05b4d;
+  height: 500px;
+  width: 100%;
+  background-image: url("/../images/headbg.jpg");
+  background-position: 0% 80%;
+}
+@media (max-width: 767px) {
+  .headband {
+    height: 200px;
+  }
+}
+.header {
+  background: #c05b4d;
+  clear: left;
+}
+.site-meta-headline {
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+.custom-logo-site-title {
+  display: inline;
+  float: left;
+}
+.site-subtitle {
+  display: inline;
+}
+.site-meta {
+  height: 0px;
+}
+.header-inner {
+  padding: 0 0 5px;
+}
+.menu-item a {
+  color: #fff4d6;
+}
+.menu-item a:hover {
+  color: #222;
 }
