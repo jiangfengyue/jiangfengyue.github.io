@@ -1681,7 +1681,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #beb6b6;
+  background: #ffff67;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2831,14 +2831,14 @@ hr {
 .headband {
   display: block;
   background: #c05b4d;
-  height: 500px;
+  height: 50px;
   width: 100%;
   background-image: url("/../images/headbg.jpg");
-  background-position: 0% 80%;
+  background-position: 0% 100%;
 }
 @media (max-width: 767px) {
   .headband {
-    height: 200px;
+    display: none;
   }
 }
 .header {
@@ -2847,15 +2847,27 @@ hr {
 }
 .site-meta-headline {
   float: left;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 35px;
+  margin-right: 5px;
 }
 .custom-logo-site-title {
   display: inline;
   float: left;
 }
+.site-title {
+  color: #fff4d6;
+}
+.site-title:hover {
+  text-shadow: 0 0 5px #fff000;
+}
+.logo-line-before,
+.logo-line-after {
+  background: #fff4d6;
+}
 .site-subtitle {
   display: inline;
+  color: #fff4d6;
 }
 .site-meta {
   height: 0px;
@@ -2868,4 +2880,11 @@ hr {
 }
 .menu-item a:hover {
   color: #222;
+}
+.footer {
+  background: #c05b4d;
+  color: #fff4d6;
+}
+.footer a {
+  color: #fff4d6;
 }
