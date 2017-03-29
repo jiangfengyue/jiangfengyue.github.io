@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jamesclarke.coding.me/"/>
-  <updated>2017-03-15T08:41:00.474Z</updated>
+  <updated>2017-03-29T11:28:53.800Z</updated>
   <id>http://jamesclarke.coding.me/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2017/3/unity-canvas-0</title>
-    <link href="http://jamesclarke.coding.me/2017/03/2017-3-unity-canvas-0/"/>
-    <id>http://jamesclarke.coding.me/2017/03/2017-3-unity-canvas-0/</id>
-    <published>2017-03-15T08:35:39.000Z</published>
-    <updated>2017-03-15T08:41:00.474Z</updated>
+    <title>hexo-generator生成器</title>
+    <link href="http://jamesclarke.coding.me/2017/03/hexo-generator/"/>
+    <id>http://jamesclarke.coding.me/2017/03/hexo-generator/</id>
+    <published>2017-03-29T11:27:37.000Z</published>
+    <updated>2017-03-29T11:28:53.800Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
     
@@ -30,7 +30,27 @@
     
     </summary>
     
-      <category term="Unity开发" scheme="http://jamesclarke.coding.me/categories/Unity%E5%BC%80%E5%8F%91/"/>
+      <category term="Hexo" scheme="http://jamesclarke.coding.me/categories/Hexo/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2017/3/unity-canvas-0</title>
+    <link href="http://jamesclarke.coding.me/2017/03/2017-3-unity-canvas-0/"/>
+    <id>http://jamesclarke.coding.me/2017/03/2017-3-unity-canvas-0/</id>
+    <published>2017-03-15T08:35:39.000Z</published>
+    <updated>2017-03-29T11:45:49.703Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;
+    
+    </summary>
+    
+      <category term="Unity开发" scheme="http://jamesclarke.coding.me/categories/Unity/"/>
     
     
       <category term="Unity" scheme="http://jamesclarke.coding.me/tags/Unity/"/>
@@ -43,10 +63,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://jamesclarke.coding.me/2017/03/hello-world/"/>
-    <id>http://jamesclarke.coding.me/2017/03/hello-world/</id>
-    <published>2017-03-15T08:22:01.874Z</published>
-    <updated>2017-03-20T19:17:17.240Z</updated>
+    <link href="http://jamesclarke.coding.me/2016/12/hello-world/"/>
+    <id>http://jamesclarke.coding.me/2016/12/hello-world/</id>
+    <published>2016-12-18T14:03:45.000Z</published>
+    <updated>2017-03-29T12:27:14.808Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <a id="more"></a>
@@ -88,6 +108,8 @@
     
     </summary>
     
+      <category term="Hexo" scheme="http://jamesclarke.coding.me/categories/Hexo/"/>
+    
     
   </entry>
   
@@ -96,7 +118,7 @@
     <link href="http://jamesclarke.coding.me/2016/12/unity-git/"/>
     <id>http://jamesclarke.coding.me/2016/12/unity-git/</id>
     <published>2016-12-18T14:03:45.000Z</published>
-    <updated>2016-12-29T14:36:00.286Z</updated>
+    <updated>2017-03-29T10:58:30.539Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Unity&#x9879;&#x76EE;&#x8FDB;&#x884C;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x501F;&#x52A9;&#x4E00;&#x4E9B;&#x5916;&#x90E8;&#x5DE5;&#x5177;&#x3002;&#x76EE;&#x524D;&#x6BD4;&#x8F83;&#x6D41;&#x884C;&#x7684;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x5E73;&#x53F0;&#x662F;Github&#x3002;&#x672C;&#x6587;&#x63A2;&#x8BA8;Win&#x7CFB;&#x7EDF;&#x4E0B;&#x7528;Github&#x548C;VS Code&#x5BF9;Unity&#x9879;&#x76EE;&#x8FDB;&#x884C;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x7684;&#x65B9;&#x6CD5;&#x3002;</p>
 <a id="more"></a>
@@ -156,7 +178,7 @@
     
     </summary>
     
-      <category term="Unity开发" scheme="http://jamesclarke.coding.me/categories/Unity%E5%BC%80%E5%8F%91/"/>
+      <category term="Unity开发" scheme="http://jamesclarke.coding.me/categories/Unity/"/>
     
     
       <category term="Unity" scheme="http://jamesclarke.coding.me/tags/Unity/"/>
@@ -172,7 +194,7 @@
     <link href="http://jamesclarke.coding.me/2016/12/unity-vscode/"/>
     <id>http://jamesclarke.coding.me/2016/12/unity-vscode/</id>
     <published>2016-12-18T06:44:31.000Z</published>
-    <updated>2017-03-15T16:58:04.773Z</updated>
+    <updated>2017-03-29T09:50:53.636Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>&#x5728;Window&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x4E60;&#x60EF;&#x4E86;VS&#x7684;&#x7F16;&#x7A0B;&#x73AF;&#x5883;&#xFF0C;&#x5728;&#x5F00;&#x53D1;Unity&#x9879;&#x76EE;&#x65F6;&#xFF0C;&#x81EA;&#x7136;&#x800C;&#x7136;&#x60F3;&#x5229;&#x7528;&#x6700;&#x65B0;&#x7684;VS Code&#x6765;&#x5B9E;&#x73B0;&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x3002;&#x672C;&#x6587;&#x5C06;&#x8BE6;&#x7EC6;&#x9610;&#x8FF0;VS Code&#x548C;Unity&#x7684;&#x76F8;&#x5173;&#x8BBE;&#x7F6E;&#xFF0C;&#x624B;&#x628A;&#x624B;&#x6559;&#x5927;&#x5BB6;&#x5EFA;&#x7ACB;VS Code&#x4E2D;&#x7684;Unity&#x8C03;&#x8BD5;&#x73AF;&#x5883;&#x3002;</p>
 <a id="more"></a>
@@ -225,7 +247,7 @@
     
     </summary>
     
-      <category term="Unity开发" scheme="http://jamesclarke.coding.me/categories/Unity%E5%BC%80%E5%8F%91/"/>
+      <category term="Unity开发" scheme="http://jamesclarke.coding.me/categories/Unity/"/>
     
     
       <category term="Unity" scheme="http://jamesclarke.coding.me/tags/Unity/"/>

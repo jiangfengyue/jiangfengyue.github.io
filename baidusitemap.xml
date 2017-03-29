@@ -3,37 +3,19 @@
 
 
     
+    
   <url>
-    <loc>http://jamesclarke.coding.me/2017/03/hello-world/</loc>
-    <lastmod>2017-03-20T19:17:17.240Z</lastmod>
+    <loc>http://jamesclarke.coding.me/2016/12/hello-world/</loc>
+    <lastmod>2017-03-29T12:27:14.808Z</lastmod>
     <data>
         <display>
         <title>Hello World</title>
-        <pubTime>2017-03-15T08:22:01.874Z</pubTime>
+        <pubTime>2016-12-18T14:03:45.000Z</pubTime>
         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jamesclarke.coding.me/2016/12/unity-vscode/</loc>
-    <lastmod>2017-03-15T16:58:04.773Z</lastmod>
-    <data>
-        <display>
-        <title>Win系统下VS Code与Unity联合开发（2016版）</title>
-        <pubTime>2016-12-18T06:44:31.000Z</pubTime>
-        
-        <tag>Unity</tag>
-         
-        <tag>VS Code</tag>
-         
          
            
              
-              <breadCrumb title="Unity开发" url="http://jamesclarke.coding.me/categories/Unity%E5%BC%80%E5%8F%91/"/>
+              <breadCrumb title="Hexo" url="http://jamesclarke.coding.me/categories/Hexo/"/>
           
         </display>
     </data>
@@ -42,10 +24,9 @@
     
     
     
-    
   <url>
     <loc>http://jamesclarke.coding.me/2017/03/2017-3-unity-canvas-0/</loc>
-    <lastmod>2017-03-15T08:41:00.474Z</lastmod>
+    <lastmod>2017-03-29T11:45:49.703Z</lastmod>
     <data>
         <display>
         <title>2017/3/unity-canvas-0</title>
@@ -60,7 +41,25 @@
          
            
              
-              <breadCrumb title="Unity开发" url="http://jamesclarke.coding.me/categories/Unity%E5%BC%80%E5%8F%91/"/>
+              <breadCrumb title="Unity开发" url="http://jamesclarke.coding.me/categories/Unity/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jamesclarke.coding.me/2017/03/hexo-generator/</loc>
+    <lastmod>2017-03-29T11:28:53.800Z</lastmod>
+    <data>
+        <display>
+        <title>hexo-generator生成器</title>
+        <pubTime>2017-03-29T11:27:37.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://jamesclarke.coding.me/categories/Hexo/"/>
           
         </display>
     </data>
@@ -69,7 +68,7 @@
     
   <url>
     <loc>http://jamesclarke.coding.me/2016/12/unity-git/</loc>
-    <lastmod>2016-12-29T14:36:00.286Z</lastmod>
+    <lastmod>2017-03-29T10:58:30.539Z</lastmod>
     <data>
         <display>
         <title>Win系统下用Github或VS Code实现Unity项目版本管理</title>
@@ -84,10 +83,38 @@
          
            
              
-              <breadCrumb title="Unity开发" url="http://jamesclarke.coding.me/categories/Unity%E5%BC%80%E5%8F%91/"/>
+              <breadCrumb title="Unity开发" url="http://jamesclarke.coding.me/categories/Unity/"/>
           
         </display>
     </data>
     </url>
 
+    
+  <url>
+    <loc>http://jamesclarke.coding.me/2016/12/unity-vscode/</loc>
+    <lastmod>2017-03-29T09:50:53.636Z</lastmod>
+    <data>
+        <display>
+        <title>Win系统下VS Code与Unity联合开发（2016版）</title>
+        <pubTime>2016-12-18T06:44:31.000Z</pubTime>
+        
+        <tag>Unity</tag>
+         
+        <tag>VS Code</tag>
+         
+         
+           
+             
+              <breadCrumb title="Unity开发" url="http://jamesclarke.coding.me/categories/Unity/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+    
+    
 </urlset>
