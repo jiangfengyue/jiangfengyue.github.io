@@ -1680,7 +1680,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #90ff7e;
+  background: #ffd533;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2851,7 +2851,8 @@ img.img-topic {
   -moz-box-shadow: #666 2px 2px 5px;
   box-shadow: #000 2px 2px 5px;
   border-bottom-right-radius: 5px;
-  width: 120px;
+  width: 110px;
+  text-align: left;
 }
 .menu-item-dropdown:hover .sub-menu {
   display: block;
@@ -2870,4 +2871,7 @@ img.img-topic {
   width: 100%;
   float: none;
   text-align: left;
+  list-style: none;
+  border: none;
+  margin-left: -30px;
 }
