@@ -189,7 +189,7 @@ body {
   font-size: 14px;
   line-height: 2;
   color: #555;
-  background: #eef;
+  background: #ddf0ed;
 }
 @media (max-width: 767px) {
   body {
@@ -468,7 +468,6 @@ body {
 .main-inner {
   margin: 0 auto;
   width: 700px;
-  border-bottom: 30px solid #fff4d6;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
@@ -1681,7 +1680,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ddf721;
+  background: #d40842;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2717,6 +2716,8 @@ hr {
   }
 }
 .footer {
+  margin-top: 80px;
+  padding: 10px 0;
   background: #f5f5f5;
   color: #666;
 }
@@ -2732,7 +2733,7 @@ hr {
 }
 .headband {
   display: none;
-  background: #c05b4d;
+  background: #7bbfea;
   height: 100px;
   width: 100%;
   background-image: url("/../images/headbg.jpg");
@@ -2745,7 +2746,7 @@ hr {
 }
 .header {
   display: block;
-  background: #c05b4d;
+  background: #7bbfea;
   clear: left;
   position: fixed;
   top: 0;
@@ -2772,7 +2773,7 @@ hr {
   position: relative;
 }
 .site-title {
-  color: #fff4d6;
+  color: #f5fffb;
 }
 .site-title:hover {
   text-shadow: 0 0 10px #fff000;
@@ -2787,30 +2788,30 @@ hr {
   left: 15px;
   bottom: -13px;
   display: inline-block;
-  color: #fff4d6;
+  color: #f5fffb;
 }
 .site-meta {
   height: 0px;
 }
 .menu-item a {
-  color: #fff4d6;
+  color: #f5fffb;
 }
 .menu-item a:hover {
   color: #222;
 }
 .footer {
-  background: #c05b4d;
-  color: #fff4d6;
+  background: #7bbfea;
+  color: #f5fffb;
 }
 .footer a {
-  color: #fff4d6;
+  color: #f5fffb;
 }
 .main-inner {
   margin-top: 0;
-  border-top: 80px solid #fff4d6;
-  border-left: 20px solid #fff4d6;
-  border-right: 20px solid #fff4d6;
-  background: #fff4d6;
+  border-top: 80px solid #f5fffb;
+  border-left: 20px solid #f5fffb;
+  border-right: 20px solid #f5fffb;
+  background: #f5fffb;
 }
 img {
   vertical-align: middle;
@@ -2818,7 +2819,7 @@ img {
 }
 .aboutImg {
   display: block;
-  background: #c05b4d;
+  background: #7bbfea;
   height: 70%;
   background-image: url("../images/headbg.jpg");
 }
@@ -2831,7 +2832,7 @@ img {
   border-bottom: 0;
 }
 .postsFrame {
-  background: #fff4d6;
+  background: #f5fffb;
   padding: 150px, 0, 15px;
   margin: 60px, 0, 10px;
 }
@@ -2856,7 +2857,7 @@ img.img-topic {
   display: none;
   position: absolute;
   top: 25px;
-  background: #c05b4d;
+  background: #7bbfea;
   margin: 0;
   -webkit-box-shadow: #666 2px 2px 5px;
   -moz-box-shadow: #666 2px 2px 5px;
