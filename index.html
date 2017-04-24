@@ -116,6 +116,22 @@
 
 
 
+<script src="/js/min/jquery-v1.10.2.min.js" type="text/javascript"></script>
+
+    <!--Required libraries-->
+<script src="/js/min/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+<script src="/js/min/jquery-finger-v0.1.0.min.js" type="text/javascript"></script>
+
+<!--Include flickerplate-->
+
+<script src="/js/min/flickerplate.min.js" type="text/javascript"></script>
+
+<!--Execute flickerplate-->
+<script>
+$(document).ready(function(){
+    $('.flicker-example').flicker();
+});
+</script>
 
 
   <title> CG要塞 </title>
@@ -159,195 +175,202 @@
           <div class="header-inner">
 
 
-<div class="site-meta custom-logo">
-  
-    <div class="site-meta-headline">
-      <a>
-        <img class="custom-logo-image" src="/images/logo.png"
-             alt="CG要塞"/>
-      </a>
+<section class="menu-bar">
+	<div class="bg">
+    <!-- logo和博客名称 -->
+    <div class="custom-logo">
+      
+        <div class="site-meta-headline">
+          <a href="/">
+            <img class="custom-logo-image" src="/images/icons/logo.png"
+                alt="CG要塞"/>
+          </a>
+        </div>
+      
+
+      <div class="custom-logo-site-title">
+        <span class="custom-site-title">
+          <a href="/">
+          CG要塞
+          </a>   
+        </span>
+        <span class="custom-site-subtitle">Watch me take the lead!</span>
+      </div>
     </div>
-  
 
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">CG要塞</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>   
+    <!-- 小屏幕时的菜单按钮 -->
+    <div class="site-nav-toggle">
+      <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+      </button>
+    </div>
+
+    <!-- 导航菜单 -->
+    <nav class="site-nav">
+      
+
+      
+        <ul id="menu" class="menu">
+          
+            
+              
+            
+
+            
+            <li class="menu-item menu-item-Unity">                 
+              <a  href="/Unity" >
+                
+                  <i class="menu-item-icon iconfont icon-unity" ></i> 
+                  
+                Unity          
+              </a>
+              
+                </li>
+                 
+            
+          
+            
+              
+            
+
+            
+            <li class="menu-item menu-item-Hexo">                 
+              <a  href="/Hexo" >
+                
+                  <i class="menu-item-icon iconfont icon-hexo" ></i> 
+                  
+                Hexo          
+              </a>
+              
+                </li>
+                 
+            
+          
+            
+              
+            
+
+            
+            <li class="menu-item menu-item-图形开发">                 
+              <a  href="/CG/" >
+                
+                  <i class="menu-item-icon iconfont icon-opengl" ></i> 
+                  
+                图形开发          
+              </a>
+              
+                </li>
+                 
+            
+          
+            
+              
+            
+
+            
+            <li class="menu-item menu-item-dropdown">                 
+              <a >
+                
+                  <i class="menu-item-icon iconfont icon-other" ></i> 
+                  
+                其他          
+              </a>
+              
+                <ul class="sub-menu">
+                 
+            
+          
+            
+              
+            
+
+            
+            <li class="menu-item menu-item-整体性学习">                 
+              <a  href="/Learning/" >
+                
+                  <i class="menu-item-icon iconfont icon-learning" ></i> 
+                  
+                整体性学习          
+              </a>
+              
+                </li>
+                 
+            
+          
+            
+              
+            
+
+            
+            <li class="menu-item menu-item-项目管理">                 
+              <a  href="/PMP/" >
+                
+                  <i class="menu-item-icon iconfont icon-pmp" ></i> 
+                  
+                项目管理          
+              </a>
+              
+                </li>
+                 
+            
+          
+            
+              
+            
+
+            
+            <li class="menu-item menu-item-阅想">                 
+              <a  href="/categories/阅想/" >
+                
+                  <i class="menu-item-icon iconfont icon-reading" ></i> 
+                  
+                阅想          
+              </a>
+              
+                </li>
+                 
+            
+          
+            
+              
+            
+
+            
+              </ul></li>
+            
+          
+            
+              
+            
+
+            
+            <li class="menu-item menu-item-关于">                 
+              <a  href="/about" >
+                
+                  <i class="menu-item-icon iconfont icon-about" ></i> 
+                  
+                关于          
+              </a>
+              
+                </li>
+                 
+            
+          
+
+          
+        </ul>
+      
+
+      <!-- 搜索按钮 -->
+      
+    </nav>
   </div>
-  <p class="site-subtitle">Watch me take the lead!</p>
-</div>
-
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-          
-        
-
-        
-        <li class="menu-item menu-item-Unity">                 
-          <a  href="/Unity"  rel="section" >
-            
-              <i class="menu-item-icon iconfont icon-unity" ></i>
-              
-            Unity          
-          </a>
-          
-            </li>
-             
-        
-      
-        
-          
-        
-
-        
-        <li class="menu-item menu-item-Hexo">                 
-          <a  href="/Hexo"  rel="section" >
-            
-              <i class="menu-item-icon iconfont icon-hexo" ></i>
-              
-            Hexo          
-          </a>
-          
-            </li>
-             
-        
-      
-        
-          
-        
-
-        
-        <li class="menu-item menu-item-OpenGL">                 
-          <a  href="/OpenGL/"  rel="section" >
-            
-              <i class="menu-item-icon iconfont icon-opengl" ></i>
-              
-            OpenGL          
-          </a>
-          
-            </li>
-             
-        
-      
-        
-          
-        
-
-        
-        <li class="menu-item menu-item-dropdown">                 
-          <a  rel="section" >
-            
-              <i class="menu-item-icon iconfont icon-other" ></i>
-              
-            其他          
-          </a>
-          
-            <ul class="sub-menu">
-             
-        
-      
-        
-          
-        
-
-        
-        <li class="menu-item menu-item-整体性学习">                 
-          <a  href="/Learning/"  rel="section" >
-            
-              <i class="menu-item-icon iconfont icon-learning" ></i>
-              
-            整体性学习          
-          </a>
-          
-            </li>
-             
-        
-      
-        
-          
-        
-
-        
-        <li class="menu-item menu-item-项目管理">                 
-          <a  href="/PMP/"  rel="section" >
-            
-              <i class="menu-item-icon iconfont icon-pmp" ></i>
-              
-            项目管理          
-          </a>
-          
-            </li>
-             
-        
-      
-        
-          
-        
-
-        
-        <li class="menu-item menu-item-阅想">                 
-          <a  href="/categories/阅想/"  rel="section" >
-            
-              <i class="menu-item-icon iconfont icon-reading" ></i>
-              
-            阅想          
-          </a>
-          
-            </li>
-             
-        
-      
-        
-          
-        
-
-        
-          </ul></li>
-        
-      
-        
-          
-        
-
-        
-        <li class="menu-item menu-item-关于">                 
-          <a  href="/about"  rel="section" >
-            
-              <i class="menu-item-icon iconfont icon-about" ></i>
-              
-            关于          
-          </a>
-          
-            </li>
-             
-        
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
+</section>
 
 
 
-<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
 <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.js"></script>
 
 <script src="/js/src/jquery.bootstrap-autohidingnavbar.min.js?v=5.1.0"></script>
@@ -356,8 +379,8 @@
 
 <script>
     $(".header").autoHidingNavbar();
+//    $(".menu-bar").autoHidingNavbar();
 </script>
-
 
 
  </div>
@@ -370,1000 +393,410 @@
           <div class="content-wrap">
             <div id="content" class="content">
                 
+<!--
   <section id="posts" class="posts-expand">
     
       <div class="postsFrame">
         
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://jamesclarke.coding.me/2017/04/client-as-center/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="江枫月">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="CG要塞">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="CG要塞" src="/images/logo.png">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/04/client-as-center/" itemprop="url">
-                  读《以客户为中心》有感
-                </a>
-              
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-09T22:22:26+08:00">
-                2017-04-09
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/阅想/" itemprop="url" rel="index">
-                    <span itemprop="name">阅想</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>&#x200B;        &#x201C;&#x5BA2;&#x6237;&#x5C31;&#x662F;&#x4E0A;&#x5E1D;&#x201D;&#xFF0C;&#x8FD9;&#x662F;&#x5546;&#x4E1A;&#x9886;&#x57DF;&#x7684;&#x4E00;&#x53E5;&#x8001;&#x8BDD;&#xFF0C;&#x7136;&#x800C;&#x5F88;&#x591A;&#x4F01;&#x4E1A;&#x5728;&#x5B9E;&#x9645;&#x8FD0;&#x8425;&#x7BA1;&#x7406;&#x4E2D;&#xFF0C;&#x5374;&#x5F80;&#x5F80;&#x6CA1;&#x6709;&#x771F;&#x6B63;&#x91CD;&#x89C6;&#x5E76;&#x8D2F;&#x5F7B;&#x8FD9;&#x4E00;&#x7406;&#x5FF5;&#x3002;&#x300A;&#x4EE5;&#x5BA2;&#x6237;&#x4E3A;&#x4E2D;&#x5FC3;&#x300B;&#x4E00;&#x4E66;&#xFF0C;&#x5BF9;&#x5386;&#x5E74;&#x6765;&#x534E;&#x4E3A;&#x516C;&#x53F8;&#x7684;&#x5185;&#x90E8;&#x8BB2;&#x8BDD;&#x548C;&#x6587;&#x4EF6;&#x7A3F;&#x8FDB;&#x884C;&#x5256;&#x6790;&#xFF0C;&#x6458;&#x53D6;&#x5176;&#x4E2D;&#x7CBE;&#x534E;&#x7684;&#x53E5;&#x6BB5;&#xFF0C;&#x91CD;&#x65B0;&#x7F16;&#x8F91;&#x6C47;&#x603B;&#x6210;&#x6587;&#xFF0C;&#x529B;&#x56FE;&#x4ECE;&#x591A;&#x5E74;&#x6765;&#x534E;&#x4E3A;&#x516C;&#x53F8;&#x4E1A;&#x52A1;&#x7BA1;&#x7406;&#x673A;&#x5236;&#x4E2D;&#x5398;&#x6E05;&#x4E00;&#x6761;&#x53D1;&#x5C55;&#x8109;&#x7EDC;&#xFF0C;&#x4E3A;&#x89C2;&#x5BDF;&#x8005;&#x4EEC;&#x6307;&#x660E;&#x4E00;&#x4E2A;&#x53C2;&#x8003;&#x548C;&#x501F;&#x9274;&#x7684;&#x65B9;&#x5411;&#x3002;</p>
-          <!--noindex-->
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/04/client-as-center/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
       </div>
     
       <div class="postsFrame">
         
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://jamesclarke.coding.me/2017/03/huawei30y/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="江枫月">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="CG要塞">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="CG要塞" src="/images/logo.png">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/huawei30y/" itemprop="url">
-                  读《华为三十年》有感
-                </a>
-              
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-29T23:52:25+08:00">
-                2017-03-29
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/阅想/" itemprop="url" rel="index">
-                    <span itemprop="name">阅想</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>&#x200B;        &#x534E;&#x4E3A;&#xFF0C;&#x4F5C;&#x4E3A;&#x4E2D;&#x56FD;&#x6700;&#x795E;&#x5947;&#x7684;&#x6C11;&#x8425;&#x4F01;&#x4E1A;&#xFF0C;&#x4E09;&#x5341;&#x5E74;&#x7684;&#x6210;&#x957F;&#x8FC7;&#x7A0B;&#xFF0C;&#x4E3A;&#x65E0;&#x6570;&#x4EBA;&#x6D25;&#x6D25;&#x4E50;&#x9053;&#x3002;&#x65E0;&#x8BBA;&#x662F;&#x79D1;&#x6280;&#x5B9E;&#x529B;&#x3001;&#x5E02;&#x573A;&#x8425;&#x9500;&#x624B;&#x6BB5;&#x3001;&#x4EBA;&#x624D;&#x6218;&#x7565;&#x8FD8;&#x662F;&#x8D44;&#x672C;&#x8FD0;&#x4F5C;&#x6A21;&#x5F0F;&#xFF0C;&#x534E;&#x4E3A;&#x6709;&#x592A;&#x591A;&#x503C;&#x5F97;&#x5B66;&#x4E60;&#x548C;&#x63A2;&#x7D22;&#x7684;&#x5730;&#x65B9;&#x3002;&#x4ECA;&#x5929;&#x6211;&#x60F3;&#x5C31;&#x4F01;&#x4E1A;&#x7BA1;&#x7406;&#x8FD9;&#x4E00;&#x65B9;&#x9762;&#xFF0C;&#x8C08;&#x8C08;&#x5BF9;&#x300A;&#x534E;&#x4E3A;&#x4E09;&#x5341;&#x5E74;&#x300B;&#x4E00;&#x4E66;&#x7684;&#x7406;&#x89E3;&#x3002;</p>
-          <!--noindex-->
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/03/huawei30y/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
       </div>
     
       <div class="postsFrame">
         
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://jamesclarke.coding.me/2017/03/hexo-generator/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="江枫月">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="CG要塞">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="CG要塞" src="/images/logo.png">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/hexo-generator/" itemprop="url">
-                  hexo-generator生成器
-                </a>
-              
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-29T19:27:37+08:00">
-                2017-03-29
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">Hexo</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
       </div>
     
       <div class="postsFrame">
         
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://jamesclarke.coding.me/2017/03/2017-3-unity-canvas-0/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="江枫月">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="CG要塞">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="CG要塞" src="/images/logo.png">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/2017-3-unity-canvas-0/" itemprop="url">
-                  2017/3/unity-canvas-0
-                </a>
-              
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-15T16:35:39+08:00">
-                2017-03-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Unity/" itemprop="url" rel="index">
-                    <span itemprop="name">Unity开发</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
       </div>
     
       <div class="postsFrame">
         
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://jamesclarke.coding.me/2016/12/hello-world/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="江枫月">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="CG要塞">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="CG要塞" src="/images/logo.png">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/12/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-18T22:03:45+08:00">
-                2016-12-18
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">Hexo</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-          <!--noindex-->
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/12/hello-world/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
       </div>
     
       <div class="postsFrame">
         
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://jamesclarke.coding.me/2016/12/unity-git/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="江枫月">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="CG要塞">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="CG要塞" src="/images/logo.png">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/12/unity-git/" itemprop="url">
-                  Win系统下用Github或VS Code实现Unity项目版本管理
-                </a>
-              
-               <!-- 创建图片 -->
-                <div class="out-img-topic">
-                  <img src="/2016/12/unity-git/Ashampoo_Snap_2016.12.18_22h26m55s_001_.png" class="img-topic" alter="图片">
-                </div>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-18T22:03:45+08:00">
-                2016-12-18
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Unity/" itemprop="url" rel="index">
-                    <span itemprop="name">Unity开发</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Unity&#x9879;&#x76EE;&#x8FDB;&#x884C;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x501F;&#x52A9;&#x4E00;&#x4E9B;&#x5916;&#x90E8;&#x5DE5;&#x5177;&#x3002;&#x76EE;&#x524D;&#x6BD4;&#x8F83;&#x6D41;&#x884C;&#x7684;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x5E73;&#x53F0;&#x662F;Github&#x3002;&#x672C;&#x6587;&#x63A2;&#x8BA8;Win&#x7CFB;&#x7EDF;&#x4E0B;&#x7528;Github&#x548C;VS Code&#x5BF9;Unity&#x9879;&#x76EE;&#x8FDB;&#x884C;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x7684;&#x65B9;&#x6CD5;&#x3002;</p>
-          <!--noindex-->
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/12/unity-git/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
       </div>
     
       <div class="postsFrame">
         
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://jamesclarke.coding.me/2016/12/unity-vscode/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="江枫月">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="CG要塞">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="CG要塞" src="/images/logo.png">
-    </span>
-  </span>
-
+      </div>
     
-      <header class="post-header">
-
+      <div class="postsFrame">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/12/unity-vscode/" itemprop="url">
-                  Win系统下VS Code与Unity联合开发（2016版）
-                </a>
-              
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-18T14:44:31+08:00">
-                2016-12-18
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Unity/" itemprop="url" rel="index">
-                    <span itemprop="name">Unity开发</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>&#x5728;Window&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x4E60;&#x60EF;&#x4E86;VS&#x7684;&#x7F16;&#x7A0B;&#x73AF;&#x5883;&#xFF0C;&#x5728;&#x5F00;&#x53D1;Unity&#x9879;&#x76EE;&#x65F6;&#xFF0C;&#x81EA;&#x7136;&#x800C;&#x7136;&#x60F3;&#x5229;&#x7528;&#x6700;&#x65B0;&#x7684;VS Code&#x6765;&#x5B9E;&#x73B0;&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x3002;&#x672C;&#x6587;&#x5C06;&#x8BE6;&#x7EC6;&#x9610;&#x8FF0;VS Code&#x548C;Unity&#x7684;&#x76F8;&#x5173;&#x8BBE;&#x7F6E;&#xFF0C;&#x624B;&#x628A;&#x624B;&#x6559;&#x5927;&#x5BB6;&#x5EFA;&#x7ACB;VS Code&#x4E2D;&#x7684;Unity&#x8C03;&#x8BD5;&#x73AF;&#x5883;&#x3002;</p>
-          <!--noindex-->
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/12/unity-vscode/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
       </div>
     
   </section>
 
   
+ -->
+  <section class="post-slider" >
+	<header class="post-slider-header section-header">
+		<img src="images/icons/icon-posts2.png" alt="">
+		<h1 class="section-title">最 新 文 章</h1>
+	</header>
+	<div class="flicker-example">
+		<ul>
+			
+				<div class="pre-manage" >
+					<div class="col-md-4">
+						<div class="blog-post">
+							<div class="thumb">
+								
+									<img src="/images/headbg.jpg" alter="前言">
+								  
+								<div class="blog-post-date">2017-04-13</div>
+								<a class="btn-readmore effect" href="/2017/04/hexo-preface/" target="_blank">Read More</a>
+							</div>
+							<div class="content">
+								<a href="/2017/04/hexo-preface/" target="_blank">
+									<h5 class="title">前言</h5>
+								</a>
+								<div class="meta-tag">
+									<a href="#">Comment (13)</a>
+									<a href="#">Likes (19)</a>
+								</div>
+								
+									<p>Hexo&#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;node.js&#x7684;&#x9759;&#x6001;&#x535A;&#x5BA2;&#x751F;&#x6210;&#x7CFB;&#x7EDF;&#xFF0C;&#x5B83;&#x4F7F;&#x7528;markdown&#x8BED;&#x6CD5;&#x6765;&#x5199;&#x4F5C;&#xFF0C;&#x540C;&#x65F6;&#x652F;&#x6301;&#x4E30;&#x5BCC;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x6807;&#x7B7E;&#x7CFB;&#x7EDF;&#x3002;</p>
+																
+							</div>
+						</div>
+					</div>	
+				</div>	
+			
+				<div class="pre-manage" >
+					<div class="col-md-4">
+						<div class="blog-post">
+							<div class="thumb">
+								
+									<img src="/images/headbg.jpg" alter="读《以客户为中心》有感">
+								  
+								<div class="blog-post-date">2017-04-09</div>
+								<a class="btn-readmore effect" href="/2017/04/client-as-center/" target="_blank">Read More</a>
+							</div>
+							<div class="content">
+								<a href="/2017/04/client-as-center/" target="_blank">
+									<h5 class="title">读《以客户为中心》有感</h5>
+								</a>
+								<div class="meta-tag">
+									<a href="#">Comment (13)</a>
+									<a href="#">Likes (19)</a>
+								</div>
+								
+									<p>&#x200B;        &#x201C;&#x5BA2;&#x6237;&#x5C31;&#x662F;&#x4E0A;&#x5E1D;&#x201D;&#xFF0C;&#x8FD9;&#x662F;&#x5546;&#x4E1A;&#x9886;&#x57DF;&#x7684;&#x4E00;&#x53E5;&#x8001;&#x8BDD;&#xFF0C;&#x7136;&#x800C;&#x5F88;&#x591A;&#x4F01;&#x4E1A;&#x5728;&#x5B9E;&#x9645;&#x8FD0;&#x8425;&#x7BA1;&#x7406;&#x4E2D;&#xFF0C;&#x5374;&#x5F80;&#x5F80;&#x6CA1;&#x6709;&#x771F;&#x6B63;&#x91CD;&#x89C6;&#x5E76;&#x8D2F;&#x5F7B;&#x8FD9;&#x4E00;&#x7406;&#x5FF5;&#x3002;&#x300A;&#x4EE5;&#x5BA2;&#x6237;&#x4E3A;&#x4E2D;&#x5FC3;&#x300B;&#x4E00;&#x4E66;&#xFF0C;&#x5BF9;&#x5386;&#x5E74;&#x6765;&#x534E;&#x4E3A;&#x516C;&#x53F8;&#x7684;&#x5185;&#x90E8;&#x8BB2;&#x8BDD;&#x548C;&#x6587;&#x4EF6;&#x7A3F;&#x8FDB;&#x884C;&#x5256;&#x6790;&#xFF0C;&#x6458;&#x53D6;&#x5176;&#x4E2D;&#x7CBE;&#x534E;&#x7684;&#x53E5;&#x6BB5;&#xFF0C;&#x91CD;&#x65B0;&#x7F16;&#x8F91;&#x6C47;&#x603B;&#x6210;&#x6587;&#xFF0C;&#x529B;&#x56FE;&#x4ECE;&#x591A;&#x5E74;&#x6765;&#x534E;&#x4E3A;&#x516C;&#x53F8;&#x4E1A;&#x52A1;&#x7BA1;&#x7406;&#x673A;&#x5236;&#x4E2D;&#x5398;&#x6E05;&#x4E00;&#x6761;&#x53D1;&#x5C55;&#x8109;&#x7EDC;&#xFF0C;&#x4E3A;&#x89C2;&#x5BDF;&#x8005;&#x4EEC;&#x6307;&#x660E;&#x4E00;&#x4E2A;&#x53C2;&#x8003;&#x548C;&#x501F;&#x9274;&#x7684;&#x65B9;&#x5411;&#x3002;</p>
+																
+							</div>
+						</div>
+					</div>	
+				</div>	
+			
+				<div class="pre-manage" >
+					<div class="col-md-4">
+						<div class="blog-post">
+							<div class="thumb">
+								
+									<img src="/images/headbg.jpg" alter="读《华为三十年》有感">
+								  
+								<div class="blog-post-date">2017-03-29</div>
+								<a class="btn-readmore effect" href="/2017/03/huawei30y/" target="_blank">Read More</a>
+							</div>
+							<div class="content">
+								<a href="/2017/03/huawei30y/" target="_blank">
+									<h5 class="title">读《华为三十年》有感</h5>
+								</a>
+								<div class="meta-tag">
+									<a href="#">Comment (13)</a>
+									<a href="#">Likes (19)</a>
+								</div>
+								
+									<p>&#x200B;        &#x534E;&#x4E3A;&#xFF0C;&#x4F5C;&#x4E3A;&#x4E2D;&#x56FD;&#x6700;&#x795E;&#x5947;&#x7684;&#x6C11;&#x8425;&#x4F01;&#x4E1A;&#xFF0C;&#x4E09;&#x5341;&#x5E74;&#x7684;&#x6210;&#x957F;&#x8FC7;&#x7A0B;&#xFF0C;&#x4E3A;&#x65E0;&#x6570;&#x4EBA;&#x6D25;&#x6D25;&#x4E50;&#x9053;&#x3002;&#x65E0;&#x8BBA;&#x662F;&#x79D1;&#x6280;&#x5B9E;&#x529B;&#x3001;&#x5E02;&#x573A;&#x8425;&#x9500;&#x624B;&#x6BB5;&#x3001;&#x4EBA;&#x624D;&#x6218;&#x7565;&#x8FD8;&#x662F;&#x8D44;&#x672C;&#x8FD0;&#x4F5C;&#x6A21;&#x5F0F;&#xFF0C;&#x534E;&#x4E3A;&#x6709;&#x592A;&#x591A;&#x503C;&#x5F97;&#x5B66;&#x4E60;&#x548C;&#x63A2;&#x7D22;&#x7684;&#x5730;&#x65B9;&#x3002;&#x4ECA;&#x5929;&#x6211;&#x60F3;&#x5C31;&#x4F01;&#x4E1A;&#x7BA1;&#x7406;&#x8FD9;&#x4E00;&#x65B9;&#x9762;&#xFF0C;&#x8C08;&#x8C08;&#x5BF9;&#x300A;&#x534E;&#x4E3A;&#x4E09;&#x5341;&#x5E74;&#x300B;&#x4E00;&#x4E66;&#x7684;&#x7406;&#x89E3;&#x3002;</p>
+																
+							</div>
+						</div>
+					</div>	
+				</div>	
+			
+				<div class="pre-manage" >
+					<div class="col-md-4">
+						<div class="blog-post">
+							<div class="thumb">
+								
+									<img src="/images/headbg.jpg" alter="hexo-generator生成器">
+								  
+								<div class="blog-post-date">2017-03-29</div>
+								<a class="btn-readmore effect" href="/2017/03/hexo-generator/" target="_blank">Read More</a>
+							</div>
+							<div class="content">
+								<a href="/2017/03/hexo-generator/" target="_blank">
+									<h5 class="title">hexo-generator生成器</h5>
+								</a>
+								<div class="meta-tag">
+									<a href="#">Comment (13)</a>
+									<a href="#">Likes (19)</a>
+								</div>
+								
+									<p></p>
+																
+							</div>
+						</div>
+					</div>	
+				</div>	
+			
+				<div class="pre-manage" >
+					<div class="col-md-4">
+						<div class="blog-post">
+							<div class="thumb">
+								
+									<img src="/images/headbg.jpg" alter="2017/3/unity-canvas-0">
+								  
+								<div class="blog-post-date">2017-03-15</div>
+								<a class="btn-readmore effect" href="/2017/03/2017-3-unity-canvas-0/" target="_blank">Read More</a>
+							</div>
+							<div class="content">
+								<a href="/2017/03/2017-3-unity-canvas-0/" target="_blank">
+									<h5 class="title">2017/3/unity-canvas-0</h5>
+								</a>
+								<div class="meta-tag">
+									<a href="#">Comment (13)</a>
+									<a href="#">Likes (19)</a>
+								</div>
+								
+									<p></p>
+																
+							</div>
+						</div>
+					</div>	
+				</div>	
+			
+				<div class="pre-manage" >
+					<div class="col-md-4">
+						<div class="blog-post">
+							<div class="thumb">
+								
+									<img src="/images/headbg.jpg" alter="Hello World">
+								  
+								<div class="blog-post-date">2016-12-18</div>
+								<a class="btn-readmore effect" href="/2016/12/hello-world/" target="_blank">Read More</a>
+							</div>
+							<div class="content">
+								<a href="/2016/12/hello-world/" target="_blank">
+									<h5 class="title">Hello World</h5>
+								</a>
+								<div class="meta-tag">
+									<a href="#">Comment (13)</a>
+									<a href="#">Likes (19)</a>
+								</div>
+								
+									<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+																
+							</div>
+						</div>
+					</div>	
+				</div>	
+			
+				<div class="pre-manage" >
+					<div class="col-md-4">
+						<div class="blog-post">
+							<div class="thumb">
+								 <!-- 添加题图 -->
+									<img src="/2016/12/unity-git/6.jpg" alter="Win系统下用Github或VS Code实现Unity项目版本管理">
+								  
+								<div class="blog-post-date">2016-12-18</div>
+								<a class="btn-readmore effect" href="/2016/12/unity-git/" target="_blank">Read More</a>
+							</div>
+							<div class="content">
+								<a href="/2016/12/unity-git/" target="_blank">
+									<h5 class="title">Win系统下用Github或VS Code实现Unity项目版本管理</h5>
+								</a>
+								<div class="meta-tag">
+									<a href="#">Comment (13)</a>
+									<a href="#">Likes (19)</a>
+								</div>
+								
+									<p>Unity&#x9879;&#x76EE;&#x8FDB;&#x884C;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x501F;&#x52A9;&#x4E00;&#x4E9B;&#x5916;&#x90E8;&#x5DE5;&#x5177;&#x3002;&#x76EE;&#x524D;&#x6BD4;&#x8F83;&#x6D41;&#x884C;&#x7684;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x5E73;&#x53F0;&#x662F;Github&#x3002;&#x672C;&#x6587;&#x63A2;&#x8BA8;Win&#x7CFB;&#x7EDF;&#x4E0B;&#x7528;Github&#x548C;VS Code&#x5BF9;Unity&#x9879;&#x76EE;&#x8FDB;&#x884C;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x7684;&#x65B9;&#x6CD5;&#x3002;</p>
+																
+							</div>
+						</div>
+					</div>	
+				</div>	
+			
+				<div class="pre-manage" >
+					<div class="col-md-4">
+						<div class="blog-post">
+							<div class="thumb">
+								
+									<img src="/images/headbg.jpg" alter="Win系统下VS Code与Unity联合开发（2016版）">
+								  
+								<div class="blog-post-date">2016-12-18</div>
+								<a class="btn-readmore effect" href="/2016/12/unity-vscode/" target="_blank">Read More</a>
+							</div>
+							<div class="content">
+								<a href="/2016/12/unity-vscode/" target="_blank">
+									<h5 class="title">Win系统下VS Code与Unity联合开发（2016版）</h5>
+								</a>
+								<div class="meta-tag">
+									<a href="#">Comment (13)</a>
+									<a href="#">Likes (19)</a>
+								</div>
+								
+									<p>&#x5728;Window&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x4E60;&#x60EF;&#x4E86;VS&#x7684;&#x7F16;&#x7A0B;&#x73AF;&#x5883;&#xFF0C;&#x5728;&#x5F00;&#x53D1;Unity&#x9879;&#x76EE;&#x65F6;&#xFF0C;&#x81EA;&#x7136;&#x800C;&#x7136;&#x60F3;&#x5229;&#x7528;&#x6700;&#x65B0;&#x7684;VS Code&#x6765;&#x5B9E;&#x73B0;&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x3002;&#x672C;&#x6587;&#x5C06;&#x8BE6;&#x7EC6;&#x9610;&#x8FF0;VS Code&#x548C;Unity&#x7684;&#x76F8;&#x5173;&#x8BBE;&#x7F6E;&#xFF0C;&#x624B;&#x628A;&#x624B;&#x6559;&#x5927;&#x5BB6;&#x5EFA;&#x7ACB;VS Code&#x4E2D;&#x7684;Unity&#x8C03;&#x8BD5;&#x73AF;&#x5883;&#x3002;</p>
+																
+							</div>
+						</div>
+					</div>	
+				</div>	
+			
+		</ul>
+	</div>
+</section>
+<script type="text/javascript">
+	var day = document.getElementsByClassName("blog-post-date");
+	var s, s1;
+	for(var i=0; i<day.length; i++)
+	{
+		s = day[i].innerHTML;
+		s1 = s.substring(0,s.lastIndexOf("-"));
+		day[i].innerHTML = s1.substring(s1.lastIndexOf("-")+1, s1.lastIndexOf("-")+3) + "月\r" + "<span>" + s.substring(s.lastIndexOf("-")+1, s.lastIndexOf("-")+3) + "</span>";
+	}
 
+	var body_width = document.body.clientWidth;
+	var post_per_slide = 1;
+	if(body_width>1250)
+		post_per_slide = 3;
+	else if(body_width>992)
+		post_per_slide = 2;
+	
+	var post_items = document.getElementsByClassName("pre-manage");
+	var slider = document.getElementsByClassName("flicker-example")[0];
+	var post_slider_page = "";
+	var slider_all = "";
+	for(var i=0; i<post_items.length; i++)
+	{
+		post_slider_page += post_items[i].innerHTML;
+		if(i%post_per_slide==post_per_slide-1)
+		{
+			slider_all += "<li>" + post_slider_page + "</li>";
+			post_slider_page = "";
+		}
+	}
+
+	if(i%post_per_slide!=0)
+	{
+		slider_all += "<li>" + post_slider_page + "</li>";
+		post_slider_page = "";
+	}	
+
+	slider.innerHTML = "<ul>" + slider_all + "</ul>";
+</script>
+
+<section class="category-section">
+	<header class="category-header section-header">
+		<img src="images/icons/icon-header-1.png" alt="">
+		<h1 class="section-title">分 门 别 类</h1>
+	</header>
+	<div class="category-row">
+		<div class="col-md-3">
+			<article class="category-item">
+				<div class="thumb">
+					<img src="images/icons/2.png" alt="">
+				</div>
+				<div class="content">
+					<h4 class="title">
+						<a href="#">Unity</a>
+					</h4>
+					<p>与Unity和游戏制作编程相关的</br>知识总结</p>
+					<a href="#" class="button">详 细 阅 读</a>
+				</div>
+			</article>
+		</div>
+		<div class="col-md-3">
+			<article class="category-item">
+				<div class="thumb">
+					<img src="images/icons/3.png" alt="">
+				</div>
+				<div class="content">
+					<h4 class="title">
+						<a href="#">Hexo</a>
+					</h4>
+					<p>与Hexo静态网站制作相关的</br>知识总结</p>
+					<a href="#" class="button">详 细 阅 读</a>
+				</div>
+			</article>
+		</div>
+		<div class="col-md-3">
+			<article class="category-item">
+				<div class="thumb">
+					<img src="images/icons/4.png" alt="">
+				</div>
+				<div class="content">
+					<h4 class="title">
+						<a href="#">图形开发</a>
+					</h4>
+					<p>与OpenGL、Cg、GPU等相关的</br>知识总结</p>
+					<a href="#" class="button">详 细 阅 读</a>
+				</div>
+			</article>
+		</div>
+		<div class="col-md-3">
+			<article class="category-item">
+				<div class="thumb">
+					<img src="images/icons/5.png" alt="">
+				</div>
+				<div class="content">
+					<h4 class="title">
+						<a href="#">整体性学习</a>
+					</h4>
+					<p text-align="left">以“整体性学习”理论为基础，</br>整合并拓展与之相关的</br>理论及应用知识</p>
+					<a href="#" class="button">详 细 阅 读</a>
+				</div>
+			</article>
+		</div>
+		<div class="col-md-3">
+			<article class="category-item">
+				<div class="thumb">
+					<img src="images/icons/5.png" alt="">
+				</div>
+				<div class="content">
+					<h4 class="title">
+						<a href="#">PMP</a>
+					</h4>
+					<p>与PMP项目管理相关的</br>知识总结</p>
+					<a href="#" class="button">详 细 阅 读</a>
+				</div>
+			</article>
+		</div>
+		<div class="col-md-3">
+			<article class="category-item">
+				<div class="thumb">
+					<img src="images/icons/5.png" alt="">
+				</div>
+				<div class="content">
+					<h4 class="title">
+						<a href="#">阅想</a>
+					</h4>
+					<p>平时阅读书籍、观看影视作品的</br>感悟和随笔</p>
+					<a href="#" class="button">详 细 阅 读</a>
+				</div>
+			</article>
+		</div>
+		<div class="col-md-3">
+			<article class="category-item">
+				<div class="thumb">
+					<img src="images/icons/5.png" alt="">
+				</div>
+				<div class="content">
+					<h4 class="title">
+						<a href="#">关于</a>
+					</h4>
+					<p>个人的成长经历和主要作品</p>
+					<a href="#" class="button">详 细 阅 读</a>
+				</div>
+			</article>
+		</div>
+	</div>
+</section> 
 
             </div>
             
@@ -1401,7 +834,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/">
-              <span class="site-state-item-count">7</span>
+              <span class="site-state-item-count">8</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1540,9 +973,6 @@
   
 
 
-
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
   <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
