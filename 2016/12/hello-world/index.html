@@ -379,114 +379,120 @@
 
   <div id="posts" class="posts-expand">
     
+    <section class="post-section">
+    
+    <!-- 原模板带的，不知道什么用处 -->
+    <link itemprop="mainEntityOfPage" href="http://jamesclarke.coding.me/2016/12/hello-world/">
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://jamesclarke.coding.me/2016/12/hello-world/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="江枫月">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="CG要塞">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="CG要塞" src="/images/icons/logo.png">
+    <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="江枫月">
+        <meta itemprop="description" content="">
+        <meta itemprop="image" content="/images/avatar.gif">
     </span>
-  </span>
 
-    
-      <header class="post-header">
+    <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="CG要塞">
+        <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+        <img style="display:none;" itemprop="url image" alt="CG要塞" src="/images/icons/logo.png">
+        </span>
+    </span>
 
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-              <!-- 标题部分 -->         
-                <!-- post正文情况下 -->
-                <div class="postTitle">
-                  <p>
-                    <span>
-                      Hello World
-                    </span>
-                  </p>
+    <header class="post-header">
+        <div class="post-title">
+            <span class="post-title-img">
+                
+                    <img src="/images/headbg.jpg" alter="图片">
                   
-                      <img src="/images/headbg.jpg" alter="图片">
-                     
-                </div>              
-                            
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-18T22:03:45+08:00">
-                2016-12-18
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">Hexo</span>
-                  </a>
-                </span>
-
-                
-                
-              
             </span>
-          
+            <p>
+                <span>
+                    Hello World
+                </span>
+            </p>
+              
+        </div>   
+        
+        <div class="post-meta">
+            <span class="post-time">    <!-- 发表时间等 -->
+                
+                    <span class="post-meta-item-icon">
+                        <i class="fa fa-calendar-o"></i>
+                    </span>
+                    <span class="post-meta-item-text">发表于</span>
+                    <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-18T22:03:45+08:00">
+                        2016-12-18
+                    </time>
+                
 
-          
+                
+                    <span class="post-meta-divider">|</span>
+                
+
+                
+                    <span class="post-meta-item-icon">
+                        <i class="fa fa-calendar-check-o"></i>
+                    </span>
+                    <span class="post-meta-item-text">更新于</span>
+                    <time title="更新于" itemprop="dateModified" datetime="2017-04-13T11:21:37+08:00">
+                        2017-04-13
+                    </time>
+                
+            </span>
+
             
-          
+                <span class="post-category" >   <!-- 所属分类 -->
+                    <span class="post-meta-divider">|</span>
+                    <span class="post-meta-item-icon">
+                        <i class="fa fa-folder-o"></i>
+                    </span>
+                    <span class="post-meta-item-text">分类于</span>
+                    
+                    
+                        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                            <a href="/Hexo" itemprop="url" rel="index">
+                                <span itemprop="name">Hexo</span>
+                            </a>
+                        </span>
+                        
+                        
+                    
+                </span>
+            
 
-          
+            
+                
+                    <span class="post-comments-count">  <!-- 评论数，只支持友言 -->
+                        <span class="post-meta-divider">|</span>
+                        <span class="post-meta-item-icon">
+                            <i class="fa fa-comment-o"></i>
+                        </span>
+                        <!-- UYAN COUNT BEGIN -->
+                        <a href="/2016/12/hello-world/#comments" id="uyan_count_unit">0条评论</a>
+                        <!-- UYAN COUNT END -->                        
+                        <a href="/2016/12/hello-world/#comments" itemprop="discussionUrl">
+                            <span class="post-comments-count yy-comment-count" data-xid="2016/12/hello-world/" itemprop="commentsCount"></span>  <!-- 具体要看友言中对数量的统计函数是不是data-xid -->
+                        </a>
+                    </span>                    
+                
+            
 
-          
-          
+            
+            
+                <span id="/2016/12/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
+                    <span class="post-meta-divider">|</span>
+                    <span class="post-meta-item-icon">
+                        <i class="fa fa-eye"></i>
+                    </span>
+                    <span class="post-meta-item-text">阅读次数 </span>
+                    <span class="leancloud-visitors-count"></span>
+                </span>
+            
 
-          
-
-          
-
+                  
         </div>
-      </header>
-    
-
+    </header>
 
     <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <a id="more"></a>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="note success"><p>Create a new post </p>
@@ -520,23 +526,16 @@
 <p>16&#x3001;<a href="http://theme-next.iissnan.com/theme-settings.html#fonts-customization" target="_blank" rel="external">NEXT&#x4E3B;&#x9898;&#x914D;&#x7F6E;</a></p>
 <p>17&#x3001;<a href="http://blog.magicer.xyz/2015/10/hexo-custom-style/" target="_blank" rel="external">Hexo&#x535A;&#x5BA2;&#x4E3B;&#x9898;NexT&#x4F7F;&#x7528;&#x81EA;&#x5B9A;&#x4E49;&#x7684;CSS&#x6837;&#x5F0F;</a></p>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">basic footnote content<a href="#fnref:1" rev="footnote"> &#x21A9;</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">inline footnote<a href="#fnref:2" rev="footnote"> &#x21A9;</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">paragraph<a href="#fnref:3" rev="footnote"> &#x21A9;</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">footnote content with some <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="external">markdown</a><a href="#fnref:4" rev="footnote"> &#x21A9;</a></span></li></ol></div></div>
-      
     </div>
 
     <div>
-      
         
 
-      
     </div>
-
     <div>
-      
         
 
-      
-    </div>
-
+    </div>    
 
     <footer class="post-footer">
       
@@ -546,7 +545,7 @@
           <div class="post-nav-next post-nav-item">
             
               <a href="/2016/12/unity-git/" rel="next" title="Win系统下用Github或VS Code实现Unity项目版本管理">
-                <i class="fa fa-chevron-left"></i> Win系统下用Github或VS Code实现Unity项目版本管理
+                <i class="fa fa-chevron-left"></i> 下一篇： Win系统下用Github或VS Code实现Unity项目版本管理
               </a>
             
           </div>
@@ -556,20 +555,15 @@
           <div class="post-nav-prev post-nav-item">
             
               <a href="/2017/03/2017-3-unity-canvas-0/" rel="prev" title="2017/3/unity-canvas-0">
-                2017/3/unity-canvas-0 <i class="fa fa-chevron-right"></i>
+               上一篇： 2017/3/unity-canvas-0 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
         </div>
       
-
-      
-      
-    </footer>
-  </article>
-
-
-
+    </footer>    
+</section> 
+    
     <div class="post-spread">
       
     </div>
@@ -578,15 +572,23 @@
 
             </div>
             
+	<div class="comments" id="comments">
+		
+			<div id="uyan_frame"></div>
+			<script>
+			var uyan_config = {
+				title: 'Hello World'
+				//'url':'',
+				//'pic':'自定义图片链接地址，设置为空值则不分享图片',
+				//'vid':'自定义视频链接地址',
+				//'du':'ieclipse.cn',
+				//su: ''
+			};
+			</script>
+			<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2129217"></script>
 
-
-            
- <div class="comments" id="comments">
- <!-- 多说评论框 start -->
-
-            <div id="uyan_frame"></div>
-       
-     </div>
+		
+	</div>
 
 
           </div>
@@ -628,7 +630,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/">
-              <span class="site-state-item-count">8</span>
+              <span class="site-state-item-count">9</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -645,7 +647,7 @@
           
             <div class="site-state-item site-state-tags">
               
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">标签</span>
               
             </div>
@@ -684,20 +686,83 @@
         
         
     
+        <section class="sidebar_comments">
+
+	<div class="comments" id="comments">
+		
+			<div id="uyan_frame"></div>
+			<script>
+			var uyan_config = {
+				title: 'Hello World'
+				//'url':'',
+				//'pic':'自定义图片链接地址，设置为空值则不分享图片',
+				//'vid':'自定义视频链接地址',
+				//'du':'ieclipse.cn',
+				//su: ''
+			};
+			</script>
+			<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2129217"></script>
+
+		
+	</div>
+
+
+
+<!--
+    <div class="commont-box">
+		<div class="boxc_t"><h4>随便说点什么吧...</h4></div>
+		<div class="boxc_c" contenteditable="true" id="aa"></div>
+		<div class="boxc_b">发布</div>
+	</div>
+
+    <script>	
+        $(function(){
+            $(".boxc_b").click(function(){
+                var center = $(".boxc_c").text();//.appendTo("nextbox");
+                if(center==""){
+                    alert("请输入内容喔！");
+                    return;
+                }
+
+                var textCon = document.getElementsByTagName("iframe")[0].contentWindow.document.getElementById('uyanmessage');
+                textCon.value = center;
+
+                var sub = $("#postsubmit");
+                if(sub)
+                {
+                    sub.click();
+                    $(".boxc_c").text("");	
+                }
+                else
+                {
+                    alert("与评论平台连接中，请稍候提交");
+                }
+            });
+            //alert(1);
+            $(".boxc_c").keydown(function(event){					
+                var len =$(".boxc_c").text().length;			
+                if(len > 70){
+                alert("够了，你别输入了，哪儿那么多话儿！");					
+                }
+            });
+        });
+    </script>
+-->
+</section>
+        
         
         <script type="text/javascript" charset="utf-8" src="/js/src/tagcloud.js"></script>
         <script type="text/javascript" charset="utf-8" src="/js/src/tagcanvas.js"></script>
         <div class="widget-wrap">
         	    <div id="myCanvasContainer" class="widget tagcloud">
                 <canvas width="250" height="250" id="resCanvas" style="width=100%">
-                    <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Canvas/">Canvas</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/">Git</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UI/">UI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Unity/">Unity</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VS-Code/">VS Code</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/企业管理/">企业管理</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/每周一书/">每周一书</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读后感/">读后感</a><span class="tag-list-count">2</span></li></ul>
+                    <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Canvas/">Canvas</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/">Git</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UI/">UI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Unity/">Unity</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VS-Code/">VS Code</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/swig/">swig</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/企业管理/">企业管理</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/每周一书/">每周一书</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读后感/">读后感</a><span class="tag-list-count">2</span></li></ul>
                 </canvas>
             </div>
         </div>
         
     
         
-
     
       </section>
     
@@ -859,6 +924,113 @@
   
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("iFtkH03Uf1jgTRgWQx34jTQo-gzGzoHsz", "TRsXaccEetn9HMAeDjbkMMJP");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
