@@ -1680,7 +1680,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #711d32;
+  background: #14ff08;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3517,14 +3517,104 @@ hr {
   padding-left: 25px;
   padding-right: 25px;
   background-color: #f5fffb;
+  padding-bottom: 15px;
 }
 @media (min-width: 768px) {
-  .post-section {
+  .post-section,
+  .comments {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
   }
+}
+.post-title {
+  height: 170px;
+  overflow: hidden;
+}
+.post-title p {
+  margin-bottom: 0;
+  text-align: left;
+}
+.post-title .post-description {
+  color: #999;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+.post-title .post-title-img {
+  float: left;
+  width: 40%;
+  margin-right: 20px;
+  position: relative;
+  top: 15px;
+  height: 170px;
+}
+.post-meta {
+  clear: left;
+}
+.sidebar_comments {
+  width: 300px;
+  height: 185px;
+  background: #fff;
+  position: absolute;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.sidebar_comments #uyan_top {
+  display: none !important;
+}
+.sidebar_comments #uyan_star {
+  display: none !important;
+}
+.sidebar_comments .commont-box {
+  width: 300px;
+  height: 185px;
+  background: #fff;
+  position: absolute;
+  border-radius: 6px;
+}
+.sidebar_comments .commont-box .boxc_t {
+  height: 30px;
+  line-height: 30px;
+}
+.sidebar_comments .commont-box .boxc_t h4 {
+  padding-left: 20px;
+  background: #3bbfb4;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin-top: 0;
+  text-align: left;
+  color: #000;
+}
+.sidebar_comments .commont-box .boxc_c {
+  width: 290px;
+  height: 100px;
+  border: 1px solid #a6c8ff;
+  margin: 8px auto;
+  text-indent: 10px;
+  box-shadow: 0 0 4px #a6c8ff;
+  text-align: left;
+}
+.sidebar_comments .commont-box .boxc_b {
+  width: 80px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+}
+.sidebar_comments .commont-box .boxc_b {
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+  background: #3bbfb4;
+  border-radius: 6px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.sidebar_comments .commont-box .boxc_b:hover {
+  background: #2c8e86;
 }
 .footer {
   background: #7bbfea;
