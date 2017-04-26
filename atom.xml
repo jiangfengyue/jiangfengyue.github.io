@@ -43,12 +43,12 @@
     <link href="http://jamesclarke.coding.me/2017/04/hexo-swig-syntax/"/>
     <id>http://jamesclarke.coding.me/2017/04/hexo-swig-syntax/</id>
     <published>2017-04-25T10:11:45.000Z</published>
-    <updated>2017-04-25T14:07:52.954Z</updated>
+    <updated>2017-04-26T12:35:20.757Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
 <li><p>Array.prototype.indexOf.call:</p>
 </li>
-<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">{{ url_for(theme.avatar | default(theme.images + &apos;/avatar.gif&apos;)) }}</div><div class="line">__(&apos;post.untitled&apos;)</div><div class="line">{{ __(&apos;post.posted&apos;) }} &#x83B7;&#x53D6;&#x8BE5;&#x8BED;&#x4E49;&#x7684;&#x540D;&#x8BCD;</div><div class="line">{{ moment(post.date).format() }}</div><div class="line">{{ date(post.date, config.date_format) }}</div><div class="line">{{ __(&apos;symbol.comma&apos;) }} &#x7701;&#x7565;&#x53F7;</div><div class="line">{{ url_for(photo) }}</div><div class="line">{{ url_for(tag.path) }}</div></pre></td></tr></table></figure>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">{{ url_for(theme.avatar | default(theme.images + &apos;/avatar.gif&apos;)) }}</div><div class="line">__(&apos;post.untitled&apos;)</div><div class="line">{{ __(&apos;post.posted&apos;) }} &#x83B7;&#x53D6;&#x8BE5;&#x8BED;&#x4E49;&#x7684;&#x540D;&#x8BCD;</div><div class="line">{{ moment(post.date).format() }}</div><div class="line">{{ date(post.date, config.date_format) }}</div><div class="line">{{ __(&apos;symbol.comma&apos;) }} &#x7701;&#x7565;&#x53F7;</div><div class="line">{{ url_for(photo) }}</div><div class="line">{{ url_for(tag.path) }}</div><div class="line">toc(page.content) &#x6839;&#x636E;h1&#x7B49;&#x6807;&#x8BC6;&#xFF0C;&#x751F;&#x6210;page&#x7684;&#x7ED3;&#x6784;&#x76EE;&#x5F55;</div><div class="line">{{ url_for(theme.menu.archives) }}</div><div class="line">__(&apos;state.posts&apos;) &#x65E5;&#x5FD7;&#x7684;&#x522B;&#x540D;</div><div class="line">{% for name, link in theme.social %}</div><div class="line">toc(page.content, { &quot;class&quot;: &quot;nav&quot;, list_number: theme.toc.number })</div></pre></td></tr></table></figure>
 </li>
 <li><p>theme</p>
 <ul>
@@ -59,6 +59,16 @@
 <li>custom_logo.image</li>
 <li>excerpt_description</li>
 <li>scroll_to_more</li>
+<li>description</li>
+<li>rss</li>
+<li>social</li>
+<li>links</li>
+<li>menu<ul>
+<li>archives &#x6240;&#x6709;&#x65E5;&#x5FD7;&#x96C6;&#x5408;&#x5728;&#x4E00;&#x8D77;&#x7684;&#x8DEF;&#x5F84;</li>
+<li>categories &#x6240;&#x6709;&#x5206;&#x7C7B;&#x96C6;&#x5408;&#x5728;&#x4E00;&#x8D77;&#x7684;&#x8DEF;&#x5F84;</li>
+<li>tags &#x6240;&#x6709;&#x6807;&#x7B7E;&#x96C6;&#x5408;&#x5728;&#x4E00;&#x8D77;&#x7684;&#x8DEF;&#x5F84;</li>
+</ul>
+</li>
 <li>auto_excerpt<ul>
 <li>enable</li>
 </ul>
@@ -67,6 +77,10 @@
 <li>created_at bool&#x578B;&#xFF0C;&#x8868;&#x660E;&#x662F;&#x5426;&#x8981;&#x663E;&#x793A;&#x521B;&#x5EFA;&#x65F6;&#x95F4;</li>
 <li>updated_at bool&#x578B;&#xFF0C;&#x8868;&#x660E;&#x662F;&#x5426;&#x8981;&#x663E;&#x793A;&#x66F4;&#x65B0;&#x65F6;&#x95F4;</li>
 <li>categories &#x5206;&#x7C7B;&#x7EC4;&#x522B;</li>
+</ul>
+</li>
+<li>toc<ul>
+<li>enable</li>
 </ul>
 </li>
 </ul>
@@ -113,6 +127,7 @@
 <li>length</li>
 </ul>
 </li>
+<li>toc_empty</li>
 </ul>
 </li>
 <li><p>categoriy</p>
@@ -128,6 +143,41 @@
 </ul>
 </li>
 <li><p>striptags</p>
+</li>
+<li><p>sidebar</p>
+<ul>
+<li>toc</li>
+<li>overview</li>
+</ul>
+</li>
+<li><p>site</p>
+<ul>
+<li>posts<ul>
+<li>length</li>
+</ul>
+</li>
+<li>categories<ul>
+<li>length</li>
+</ul>
+</li>
+<li>tags<ul>
+<li>length</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>state</p>
+<ul>
+<li>posts</li>
+<li>categories</li>
+<li>tags</li>
+</ul>
+</li>
+<li><p>page</p>
+<ul>
+<li>content</li>
+<li>toc_number</li>
+</ul>
 </li>
 </ul>
 ]]></content>

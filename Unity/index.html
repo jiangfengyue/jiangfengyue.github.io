@@ -397,11 +397,11 @@ $(document).ready(function(){
   <section id="posts" class="posts-expand">
     
 
-	<ul class='0' id='title-list-ul'>	<li id='0.282526279164407'>1 待定	<ul class='1' id='0.282526279164407-ul'>	<li id='0.7037462358216136'>		<a href='../2016/12/unity-git/'>1.1 Win系统下用Github或VS Code实现Unity项目版本管理</a>
+	<ul class='0' id='title-list-ul'>	<li id='0.7830803561499311'>1 待定	<ul class='1' id='0.7830803561499311-ul'>	<li id='0.7981130226799391'>1.1 待定	<ul class='2' id='0.7981130226799391-ul'>	<li id='0.029466868415302994'>		<a href='../2016/12/unity-vscode/'>1.1.1 Win系统下VS Code与Unity联合开发（2016版）</a>
 
-	<ul class='2' id='0.7037462358216136-ul'>	<li id='0.33030318854387763'>		<a href='../2016/12/unity-vscode/'>1.1.1 Win系统下VS Code与Unity联合开发（2016版）</a>
+</li>	<li id='0.6349464234862461'>		<a href='../2016/12/unity-git/'>1.1.2 Win系统下用Github或VS Code实现Unity项目版本管理</a>
 
-</li></ul></li></ul></li>	<li id='0.9160587009375678'>2 待定	<ul class='1' id='0.9160587009375678-ul'>	<li id='0.14947743000357328'>		<a href='../2017/03/2017-3-unity-canvas-0/'>2.1 2017/3/unity-canvas-0</a>
+</li></ul></li></ul></li>	<li id='0.3876815770538453'>2 待定	<ul class='1' id='0.3876815770538453-ul'>	<li id='0.7122126601827754'>		<a href='../2017/03/2017-3-unity-canvas-0/'>2.1 2017/3/unity-canvas-0</a>
 
 
 	</li>
@@ -424,7 +424,7 @@ $(document).ready(function(){
 			<div id="uyan_frame"></div>
 			<script>
 			var uyan_config = {
-				title: '	<ul class='0' id='title-list-ul'>	<li id='0.282526279164407'>1 待定	<ul class='1' id='0.282526279164407-ul'>	<li id='0.7037462358216136'>		<a href='../2016/12/unity-git/'>1.1 Win系统下用Github或VS Code实现Unity项目版本管理</a>,	<ul class='2' id='0.7037462358216136-ul'>	<li id='0.33030318854387763'>		<a href='../2016/12/unity-vscode/'>1.1.1 Win系统下VS Code与Unity联合开发（2016版）</a>,</li></ul></li></ul></li>	<li id='0.9160587009375678'>2 待定	<ul class='1' id='0.9160587009375678-ul'>	<li id='0.14947743000357328'>		<a href='../2017/03/2017-3-unity-canvas-0/'>2.1 2017/3/unity-canvas-0</a>,
+				title: '	<ul class='0' id='title-list-ul'>	<li id='0.7830803561499311'>1 待定	<ul class='1' id='0.7830803561499311-ul'>	<li id='0.7981130226799391'>1.1 待定	<ul class='2' id='0.7981130226799391-ul'>	<li id='0.029466868415302994'>		<a href='../2016/12/unity-vscode/'>1.1.1 Win系统下VS Code与Unity联合开发（2016版）</a>,</li>	<li id='0.6349464234862461'>		<a href='../2016/12/unity-git/'>1.1.2 Win系统下用Github或VS Code实现Unity项目版本管理</a>,</li></ul></li></ul></li>	<li id='0.3876815770538453'>2 待定	<ul class='1' id='0.3876815770538453-ul'>	<li id='0.7122126601827754'>		<a href='../2017/03/2017-3-unity-canvas-0/'>2.1 2017/3/unity-canvas-0</a>,
 	</li>
 	</ul>
 	</li>
@@ -446,7 +446,7 @@ $(document).ready(function(){
           
             
   
-  <div class="sidebar-toggle">
+  <div class="sidebar-toggle" id="sidebar-toggle">
     <div class="sidebar-toggle-line-wrap">
       <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
       <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
@@ -527,52 +527,7 @@ $(document).ready(function(){
         
         
         
-    
-        <section class="sidebar_comments">
-<div id="uyan_frame"></div>
-
-<!--
-    <div class="commont-box">
-		<div class="boxc_t"><h4>随便说点什么吧...</h4></div>
-		<div class="boxc_c" contenteditable="true" id="aa"></div>
-		<div class="boxc_b">发布</div>
-	</div>
-
-    <script>	
-        $(function(){
-            $(".boxc_b").click(function(){
-                var center = $(".boxc_c").text();//.appendTo("nextbox");
-                if(center==""){
-                    alert("请输入内容喔！");
-                    return;
-                }
-
-                var textCon = document.getElementsByTagName("iframe")[0].contentWindow.document.getElementById('uyanmessage');
-                textCon.value = center;
-
-                var sub = $("#postsubmit");
-                if(sub)
-                {
-                    sub.click();
-                    $(".boxc_c").text("");	
-                }
-                else
-                {
-                    alert("与评论平台连接中，请稍候提交");
-                }
-            });
-            //alert(1);
-            $(".boxc_c").keydown(function(event){					
-                var len =$(".boxc_c").text().length;			
-                if(len > 70){
-                alert("够了，你别输入了，哪儿那么多话儿！");					
-                }
-            });
-        });
-    </script>
--->
-</section>
-        
+                   
         
         <script type="text/javascript" charset="utf-8" src="/js/src/tagcloud.js"></script>
         <script type="text/javascript" charset="utf-8" src="/js/src/tagcanvas.js"></script>
@@ -584,9 +539,6 @@ $(document).ready(function(){
             </div>
         </div>
         
-    
-        
-    
       </section>
     
       
