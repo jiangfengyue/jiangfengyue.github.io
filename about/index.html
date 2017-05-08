@@ -135,19 +135,23 @@
 
 
 
-<div id="timeline">
-    <!-- Timeline.js will genereate the markup here -->
-</div>
 
-<script type="text/javascript" src="/js/min/timeline/timeline-min.js"></script>
-<script type="text/javascript" charset="utf-8">
-    $(function() {
-        var timeline = new VMM.Timeline();
-        var path = "/about/index.html";
-        var dataPath = path.substring(0, path.lastIndexOf("/")) + "/data.json";
-        timeline.init( "data.json" );
-    });
-</script>
+
+    <div id="timeline">
+        <!-- Timeline.js will genereate the markup here -->
+    </div>
+
+    <!-- JavaScript includes - jQuery, turn.js and our own script.js -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/js/min/timeline/timeline-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function() {
+
+            var timeline = new VMM.Timeline();
+            timeline.init("data.json");
+
+        });
+    </script>
   
 
   
